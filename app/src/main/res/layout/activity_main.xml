@@ -4,36 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4B278A6A"
+    android:background="#FFE8EA"
     android:orientation="vertical"
+    android:paddingTop="28dp"
     tools:context=".MainActivity">
+
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="99dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/logo" />
+
+        android:src="@drawable/orkut" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome to"
+        android:textColor="#FF4CC7"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:layout_marginBottom="20dp"
         android:gravity="center_horizontal"
-        android:text="EmpresaABC"
-        android:textColor="#F4511E"
+        android:text="Orkut"
+        android:textColor="#FF4CC7"
         android:textSize="30sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:text="Usuário:"
-        android:textColor="#000"
-        android:textSize="20sp"
+        android:text="Enter"
+        android:paddingBottom="5dp"
+        android:textColor="#FF4CC7"
+        android:textSize="25sp"
         android:textStyle="bold" />
+
 
     <EditText
         android:layout_width="match_parent"
@@ -41,22 +55,22 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="20dp"
-        android:background="#FDD835"
+        android:background="#EFF2FB"
         android:drawableRight="@drawable/ic_usuario"
-        android:hint="Insira o nome do usuário"
+        android:hint="Email or phone number"
         android:inputType="textPersonName"
         android:padding="10dp"
         android:textSize="20sp" />
-
+    <!--
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:text="Senha:"
-        android:textColor="#000"
+        android:text="Password:"
+        android:textColor="#FF4CC7"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold" /> -->
 
     <EditText
         android:layout_width="match_parent"
@@ -64,9 +78,9 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="20dp"
-        android:background="#FDD835"
+        android:background="#EFF2FB"
         android:drawableRight="@drawable/ic_senha"
-        android:hint="Insira a senha do usuário"
+        android:hint="Enter your password"
         android:inputType="textPassword"
         android:padding="10dp"
         android:textSize="20sp" />
@@ -77,18 +91,18 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        android:background="#13A5A0"
-        android:text="Entrar"
+        android:background="#FF4CC7"
+        android:text="Sing in"
         android:textColor="#FFF" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="392dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:background="#13A5A0"
-        android:text="Sair"
+        android:layout_marginRight="50dp"
+        android:background="#FF4CC7"
+        android:text="Join"
         android:textColor="#FFF" />
 
     <TextView
@@ -97,6 +111,6 @@
         android:layout_marginTop="5dp"
         android:layout_marginRight="15sp"
         android:gravity="end"
-        android:text="Esqueceu a senha?"
+        android:text="Need help?"
         android:textColor="#000" />
 </LinearLayout>
